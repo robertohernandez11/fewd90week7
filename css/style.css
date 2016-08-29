@@ -1,0 +1,178 @@
+body {
+	font-family: "Source+Sans+Pro";
+}
+
+
+header {
+	background-color: black;
+	height: 80px;
+	border-bottom: solid 5px yellow;
+}
+
+h1 {
+color: yellow;
+font-family: "Merriweather", serif;
+font-size: 30px;
+float: left;
+padding-top: 2%;
+padding-left: 2%;
+}
+nav a:hover {
+  background-color: #dd0000;
+}
+
+nav a {
+	float: right;
+	color: white;
+	font-family: "Oswald", Sans-serif;
+	/*padding-top: 2%;*/
+	padding-right: 2%;
+	padding: 2%;
+	text-decoration: none;
+	text-align: center;
+}
+
+ blockquote {
+ 	font-family: "Merriweather", serif;
+ 	font-size: 25px;
+ 	background-color: #C6C6C6;
+ 	height: 70px;
+}
+
+.quote {
+	font-size: 26px;
+	text-align: center;
+	padding-top:15px;
+}
+.hero {
+	width: 100%;
+}
+
+#hero {
+	position: relative;
+	width: 100%;
+	height:600px;
+	background: url("../images/coworking.jpg")no-repeat;
+	background-size: cover;
+}
+#text {
+
+}
+background-img {
+	height: 50%;
+	width: 100%;
+}
+
+.underline {
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
+
+}
+
+.section {
+	padding-left: 5%;
+    padding-top: 4%;
+}
+
+.meet {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.meet1 {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-top: 2%;
+}
+.h3 {
+	font-size: 25px;
+	font-family: "Merriweather" serif;
+	line-height: 1.5
+}
+
+h3 {
+	width: 97%;
+	font-size: 25px;
+	font-family: "Merriweather" serif;
+	line-height: 1.5
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.boxtext {
+	float: right;
+	padding: 4%;
+	margin-top: 8%;
+    margin-right: 4%;
+	text-decoration: none;
+	width: 48%;
+	background-color: white; opacity: 0.9;
+	border: solid 1px;
+
+}
+
+.box-button {
+  display: block;
+  height: 60px;
+  width: 90%;
+  line-height: 400%;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Oswald";
+  color: black;
+  border-radius: 5px;
+  background-color: yellow;
+  box-shadow: 0 5px 0 0 gray;
+  margin-bottom: 5px;
+}
+
+a.button {
+  display: block;
+  height: 50%;
+  width: 90%;
+  line-height: 400%;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Oswald";
+  color: black;
+  border-radius: 5px;
+  background-color: #cccccc;
+  box-shadow: 0 5px 0 0 gray;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+#section {
+background-color: #FFFFF5;
+}
+
+.column {
+	float: left;
+	width: 33.333%;
+	border-right: 2px solid lightgray;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left: 2%;
+
+}
+
+.column:last-child {
+	border-right: none;
+}
+
+footer {
+	clear: both;
+	height: 80px;
+	background-color: black;
+	color: white;
+	font-family: "Merriweather" serif;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 30px;
+
+
+}
